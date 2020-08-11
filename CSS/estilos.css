@@ -1,0 +1,63 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	width: 100%;
+	background:rgb(0,0,0,0.8);
+	height: 70px;
+	position: fixed;
+	z-index: 10;
+}
+/* aqui estamos modificando el color del ancho era rojo */
+.ancho{
+	width: 80%;
+	height: 70px;
+	
+	margin: auto;
+}
+/* aqui estamos modificando el color del logo era azul */
+.logo{
+	width: 30%;
+	height: 70px;
+	
+	float: left;
+	padding-top: 10px;
+	box-sizing:border-box; 
+	
+}
+.logo p a{
+	color: #fff;
+	font-size:40px;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+/* aqui estamos modificando el color del nav era oliva */
+nav{
+	width: 70%;
+	height: 70px;
+	
+	float: left;
+	text-align: right;
+	padding-top: 24px;
+	box-sizing:border-box; 
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	color: #fff;
+	font-size: 13px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-left: 15px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+nav ul li a:hover{
+	color: #444;
+}
+.logo p a:hover{
+	color: #444;
+}
